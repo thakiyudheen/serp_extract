@@ -1,0 +1,26 @@
+{
+  "name": "serp-url-extractor",
+  "version": "1.0.0",
+  "description": "SERP Crawling and URL Extraction in TypeScript",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "axios": "^1.15.2",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.4.5",
+    "ghost-cursor": "^1.4.2",
+    "puppeteer": "^24.42.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "@types/puppeteer": "^5.4.7",
+    "tsx": "^4.11.0",
+    "typescript": "^5.4.5"
+  }
+}
